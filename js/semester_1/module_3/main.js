@@ -18,3 +18,11 @@ console.log('Число A меньше числа B', normA < normB);
 console.log('Число A больше или равно числу B', normA >= normB);
 console.log('Число A меньше или равно числу B', normA <= normB);
 console.log('Число A не равно числу B', normA !== normB);
+
+// Задача 3
+let N = -3;
+let M = -10;
+let range = Math.abs(N - M);
+let NumberInRange = Math.round((Math.random() * range));
+let min = Math.min(N,M);
+console.log(min + NumberInRange);
