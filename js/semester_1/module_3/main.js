@@ -10,8 +10,8 @@ console.log("Площадь:", area)
 let a = 13.123456789;
 let b = 2.123;
 let n = 5;
-let NormA = Math.round(a * Math.pow(10, n));
-let NormB = Math.round(b * Math.pow(10, n));
+let normA = Math.round(a * Math.pow(10, n));
+let normB = Math.round(b * Math.pow(10, n));
 console.log('Исходные числа равны', NormA === NormB);
 console.log('Число A больше числа B', NormA > NormB);
 console.log('Число A меньше числа B', NormA < NormB);
