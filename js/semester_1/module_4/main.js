@@ -7,9 +7,9 @@ else {console.log('Недопустимый пароль')}
 
 // Задача 2
 let userName = "Aleksey";
-let userSurname = "KitaykiN";
-let newUsername = userName.substring(0,1).toUpperCase() + userName.substring(1).toLowerCase();
-let newuserSurname = userSurname.substring(0,1).toUpperCase() + userSurname.substring(1).toLowerCase();
+let userSurname = "Kitaykin";
+let newUsername = userName.substring(1,0).toUpperCase() + userName.substring(1).toLowerCase();
+let newuserSurname = userSurname.substring(1,0).toUpperCase() + userSurname.substring(1).toLowerCase();
 console.log("Имя:",newUsername)
 console.log("Фамилия:",newuserSurname)
 console.log(userName === newUsername ? "Имя осталось без изменений" : "Имя было изменено");
