@@ -7,10 +7,14 @@ else {console.log('Недопустимый пароль')}
 
 // Задача 2
 let userName = "Aleksey";
-let userSurname = "Kitaykin";
+let userSurname = "KitayKin";
 let newUsername = userName.substring(1,0).toUpperCase() + userName.substring(1).toLowerCase();
 let newuserSurname = userSurname.substring(1,0).toUpperCase() + userSurname.substring(1).toLowerCase();
 console.log("Имя:",newUsername)
 console.log("Фамилия:",newuserSurname)
 console.log(userName === newUsername ? "Имя осталось без изменений" : "Имя было изменено");
 console.log(userSurname === newuserSurname ? "Фамилия осталась без измений" : "Фамилия была изменена");
+// Задача 3
+
+let number = 6;
+console.log(number % 2 === 0 ? "Число чётное" : "Число нечётное");
